@@ -6,6 +6,11 @@ Implement function `check(str, bracketsConfig)`, that for given brackets sequenc
 
 In the second param there is `bracketsConfig` - the array of pairs open-closed brackets. Each subarray includes only 2 elements - opening and closing bracket
 
+Реализуйте проверку функции (str, bracketsConfig), которая для данной последовательности скобок вернет истину, если она верна, и ложь в противном случае
+
+Во втором параметре есть bracketsConfig - массив пар открытых-закрытых скобок. Каждый подмассив включает всего 2 элемента - открывающую и закрывающую скобки.
+
+
 ```js
 check('()', [['(', ')']]) // -> true
 check('((()))()', [['(', ')']]) // -> true
